@@ -21,10 +21,11 @@ body {
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
-         color: var(--gray);  
+        line-height: 16px; 
+        color: var(--gray) 
      }
-     a[href^="mailto"] {
+
+     .link-mail {
         text-decoration: none;
         font-family: Roboto,serif;
         width: 231px;
@@ -37,6 +38,11 @@ body {
         line-height: 16px;
         color: var(--active);
      }
+     .link-mail:hover {
+         color: blue;
+        text-decoration: underline;
+     }
+
      .link {
         font-family: Roboto,serif;
         font-style: normal;
@@ -49,6 +55,7 @@ body {
          color: var(--active);
      }
      .link-active {
+         text-decoration: none;
          font-family: Raleway,serif;
          font-style: normal;
          font-weight: 700;
@@ -56,13 +63,20 @@ body {
          line-height: 31px;
          color: var(--active);
      }
+     .link-active:focus {
+         text-decoration: none;
+     }
      .link-active-studio {
+        text-decoration: none;
         font-family: Raleway,serif;
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;
         color: var(--black);
+     }
+     .link-active-studio:focus {
+         text-decoration: none;
      }
      .section-service {
         background: #2F303A;
@@ -93,6 +107,10 @@ body {
         letter-spacing: 0.02em;
          color: var(--active);
      }
+     .link-active-styles:hover {
+         text-decoration: underline;
+         color: blue;
+     }
      .link-active-service {
         padding-left: 50x;
         font-family: Roboto,serif;
@@ -104,6 +122,11 @@ body {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         color: var(--white-2);
+     }
+     .link-active-service:hover {
+         text-decoration: underline;
+         color: blue;
+
      }
      .link-active-button{
         font-family: Roboto,serif;
@@ -126,7 +149,7 @@ body {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.7;
         /* or 171% */
         letter-spacing: 0.03em;
         color: var(--gray);
@@ -209,7 +232,7 @@ body {
     font-style: normal;
     font-weight: 700;;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
    }
