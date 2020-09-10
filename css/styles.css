@@ -1,25 +1,27 @@
 :root {
-   --black:  #212121;
-   --active: #2196F3;
-   --gray: #757575;
-   --white-1: rgba(255, 255, 255, 0.6);
-   --white-2: #ffffff;
-   --font-family: Roboto,serif;
+    --black:  #212121;
+    --active: #2196F3;
+    --gray: #757575;
+    --white-1: rgba(255, 255, 255, 0.6);
+    --white-2: #ffffff;
+    --secondary-bg-color:  #2F303A;
+    --mainer-bg-color: #E5E5E5;
 } 
 body {
+    font-family: Roboto,sans-serif;
     color: var(--black);
 } 
      .section-main {
-         background-color: #E5E5E5;
+         background-color:var(--mainer-bg-color);
      } 
      .footer-end {
-         background-color: #2F303A;
+         background-color: var(--secondary-bg-color);
      }
-     a[href^="tel"] {
+     .link-tel {
         text-decoration: none;
-        font-family: Roboto,serif;
+        font-family: Roboto,sans-serif;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 700;
         font-size: 14px;
         line-height: 16px; 
         color: var(--gray) 
@@ -27,28 +29,25 @@ body {
 
      .link-mail {
         text-decoration: none;
-        font-family: Roboto,serif;
-        width: 231px;
-        height: 21px;
-        left: 215px;
-        top: 2238px;
+        font-family: Roboto,sans-serif;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 14px;
         line-height: 16px;
-        color: var(--active);
+        color: var(--gray);
      }
      .link-mail:hover {
-         color: blue;
-        text-decoration: underline;
+        color: var(--active);
+       text-decoration: underline;
      }
 
      .link {
-        font-family: Roboto,serif;
+        font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
+        text-decoration: none;
         color: var(--black);
      }
      .link-active:hover{
@@ -56,7 +55,7 @@ body {
      }
      .link-active {
          text-decoration: none;
-         font-family: Raleway,serif;
+         font-family: Raleway,sans-serif;
          font-style: normal;
          font-weight: 700;
          font-size: 26px;
@@ -68,7 +67,7 @@ body {
      }
      .link-active-studio {
         text-decoration: none;
-        font-family: Raleway,serif;
+        font-family: Raleway,sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
@@ -79,57 +78,62 @@ body {
          text-decoration: none;
      }
      .section-service {
-        background: #2F303A;
+        background: var(--secondary-bg-color);
      }
      h1 {
         width: 696px;
         height: 120px;
         left: 452px;
         top: 280px;
-        font-family: Roboto,serif;
+        font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
         line-height: 60px;
-        /* or 136% */
+       
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;        
-        background: #2F303A;
+        background: var(--secondary-bg-color);
          color: var(--white-2);
      }
      .link-active-styles {
-        font-family: Roboto,serif;
+        text-decoration: none;
+        font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
+        text-decoration: none;
          color: var(--active);
      }
      .link-active-styles:hover {
          text-decoration: underline;
-         color: blue;
+         color: var(--black);
      }
      .link-active-service {
-        padding-left: 50x;
-        font-family: Roboto,serif;
+         margin-left: 50px;
+        font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 30px;
-        background: #2196F3;
+        background: var(--active);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border: 1px solid transparent;
         border-radius: 4px;
+        text-decoration: none;
         color: var(--white-2);
+        
      }
      .link-active-service:hover {
          text-decoration: underline;
-         color: blue;
+         color:var(--black);
 
      }
      .link-active-button{
-        font-family: Roboto,serif;
+        font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -145,21 +149,19 @@ body {
         height: 75px;
         left: 515px;
         top: 800px;
-        font-family: Roboto,serif;
+        font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
-        /* or 171% */
+
         letter-spacing: 0.03em;
         color: var(--gray);
      }
      h2 {
         width: 376px;
-        height: 42px;
-        left: 612px;
-        top: 969px;
-        font-family: Roboto,serif;
+        
+        font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -173,12 +175,11 @@ body {
         height: 19px;
         left: 1183px;
         top: 1925px;
-        font-family: Roboto,serif;
+        font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-       /* identical to box height */
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--black);
@@ -188,12 +189,12 @@ body {
         height: 19px;
         left: 275px;
         top: 1925px;
-        font-family: Roboto,serif;
+        font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        /* identical to box height */
+      
         text-align: center;
         color: var(--black)
     }
@@ -202,7 +203,7 @@ body {
         height: 19px;
         left: 882px;
         top: 1925px;
-        font-family: Roboto,serif;
+        font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -217,28 +218,28 @@ body {
         height: 19px;
         left: 596px;
         top: 1925px;
-        font-family: Roboto,serif;
+        font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        /* identical to box height */
+        
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--black);
     }
    h3 {
-    font-family: Roboto,serif;
+    font-family: Roboto,sans-serif;
     font-style: normal;
     font-weight: 700;;
     font-size: 18px;
     line-height: 2;
-    /* identical to box height, or 200% */
+  
     letter-spacing: 0.06em;
    }
    .section-contentc {
-       background-color:  #F5F4FA;
+       background-color:  var(--mainer-bg-color);
    }
    .footer-contentc {
-       background-color: #2F303A;
+       background-color: var(--secondary-bg-color);
    }
