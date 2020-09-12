@@ -59,10 +59,10 @@ body {
      }
      .link-mail:hover {
         color: var(--active);
-       text-decoration: underline;
+      
      }
 
-     .link {
+     .link-active-styles {
         font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -71,7 +71,7 @@ body {
         text-decoration: none;
         color: var(--black);
      }
-     .link:hover {
+     .link-active-styles:hover {
          color: var(--active);
      }
      .link-active:hover{
@@ -98,9 +98,7 @@ body {
         line-height: 31px;
         color: var(--black);
      }
-     .link-active-studio:focus {
-         text-decoration: none;
-     }
+     
      .section-service {
         background: var(--secondary-bg-color);
      }
@@ -133,7 +131,7 @@ body {
          color: var(--black);
      }
      .link-active-styles:hover {
-         text-decoration: underline;
+        text-decoration: none;
          color: var(--active);
      }
      .link-active-service {
@@ -150,11 +148,6 @@ body {
         text-decoration: none;
         color: var(--white-2);
         
-     }
-     .link-active-service:hover {
-         text-decoration: underline;
-         color:var(--black);
-
      }
      .link-active-button {
         font-family: Roboto,sans-serif;
@@ -205,6 +198,15 @@ body {
 
         letter-spacing: 0.03em;
         color: var(--gray);
+     }
+     .link {
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration: none;
+        color: var(--black);
      }
      h2 {
         width: 376px;
