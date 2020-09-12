@@ -8,9 +8,27 @@
     --mainer-bg-color: #E5E5E5;
 } 
 body {
-    font-family: Roboto,sans-serif;
+    
     color: var(--black);
 } 
+.logo {
+    text-decoration: none;
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--active);
+}
+.logotip {
+    text-decoration: none;
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--black);
+}
      .section-main {
          background-color:var(--mainer-bg-color);
      } 
@@ -25,6 +43,9 @@ body {
         font-size: 14px;
         line-height: 16px; 
         color: var(--gray) 
+     }
+     .link-tel:hover {
+         color: var(--active);
      }
 
      .link-mail {
@@ -49,6 +70,9 @@ body {
         line-height: 16px;
         text-decoration: none;
         color: var(--black);
+     }
+     .link:hover {
+         color: var(--active);
      }
      .link-active:hover{
          color: var(--active);
@@ -106,11 +130,11 @@ body {
         line-height: 16px;
         letter-spacing: 0.02em;
         text-decoration: none;
-         color: var(--active);
+         color: var(--black);
      }
      .link-active-styles:hover {
          text-decoration: underline;
-         color: var(--black);
+         color: var(--active);
      }
      .link-active-service {
          margin-left: 50px;
@@ -132,7 +156,7 @@ body {
          color:var(--black);
 
      }
-     .link-active-button{
+     .link-active-button {
         font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -140,9 +164,33 @@ body {
         line-height: 26px;
         text-align: center;
          letter-spacing: 0.03em;
-         background: var(--active); 
+         color: var(--black);
          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
          border-radius: 4px;
+     }
+         
+     .link-active-button:hover {
+           background-color: var(--active);
+           color: var(--white-2);
+     }
+
+     .btn {
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+      
+        
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--black);
+        border-radius: 4px;
+     }
+     .btn:hover {
+        background-color: var(--active);
+           color: var(--white-2);
+
      }
      .link-title {
         width: 270px;
