@@ -6,6 +6,7 @@
     --white-2: #ffffff;
     --secondary-bg-color:  #2F303A;
     --mainer-bg-color: #E5E5E5;
+    --team-bg-color: #F5F4FA;
 } 
 body {
     
@@ -30,7 +31,7 @@ body {
     color: var(--black);
 }
      .section-main {
-         background-color:var(--mainer-bg-color);
+         background-color:var(--team-bg-color);
      } 
      .footer-end {
          background-color: var(--secondary-bg-color);
@@ -70,10 +71,17 @@ body {
         line-height: 16px;
         text-decoration: none;
         color: var(--black);
+        cursor: pointer;
      }
      .link-active-styles:hover {
          color: var(--active);
      }
+     
+    
+    .site-nav .current {
+            color: var(--active);
+     }
+
      .link-active:hover{
          color: var(--active);
      }
@@ -184,6 +192,26 @@ body {
         background-color: var(--active);
            color: var(--white-2);
 
+           
+     }
+     .portfolio-li {
+         text-decoration: none;
+     }
+     .portfolio-h {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 20px;
+
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+       color: var(--black);
+     
+        letter-spacing: 0.06em
+        
+      
      }
      .link-title {
         width: 270px;
@@ -288,8 +316,23 @@ body {
     letter-spacing: 0.06em;
    }
    .section-contentc {
-       background-color:  var(--mainer-bg-color);
+       background-color:  var(--team-bg-color);
    }
    .footer-contentc {
        background-color: var(--secondary-bg-color);
+   }
+
+   .logo-white {
+       color: var(--white-2);
+   }
+
+   .siti {
+       color: var(--white-2);
+       font-family: Roboto;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 14px;
+       line-height: 24px;
+
+       letter-spacing: 0.03em;
    }
