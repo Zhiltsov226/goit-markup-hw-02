@@ -9,7 +9,7 @@
     --team-bg-color: #F5F4FA;
 } 
 body {
-    font-family: Raleway,sans-serif;
+    font-family: Roboto,sans-serif;
     color: var(--black);
 } 
 .logo {
@@ -114,7 +114,6 @@ body {
         left: 452px;
         top: 280px;
      
-        font-style: normal;
         font-weight: 900;
         font-size: 44px;
         line-height: 60px;
@@ -128,7 +127,7 @@ body {
      .link-active-styles {
         text-decoration: none;
        
-        font-style: normal;
+       
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
@@ -143,7 +142,7 @@ body {
      .link-active-service {
          margin-left: 50px;
        
-        font-style: normal;
+        
         font-weight: 700;
         font-size: 16px;
         line-height: 30px;
@@ -157,7 +156,7 @@ body {
      }
      .link-active-button {
        
-        font-style: normal;
+       
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;
@@ -201,7 +200,7 @@ body {
         margin-top: 20px;
 
        
-        font-style: normal;
+       
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -273,10 +272,7 @@ body {
         color: var(--black)
     }
     .link-title-marketing {
-        width: 137px;
-        height: 19px;
-        left: 882px;
-        top: 1925px;
+       
       
         
         font-weight: 500;
