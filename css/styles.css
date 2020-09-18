@@ -39,7 +39,7 @@ body {
         text-decoration: none;
       
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 14px;
         line-height: 16px; 
         color: var(--gray) 
@@ -52,7 +52,7 @@ body {
         text-decoration: none;
        
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         color: var(--gray);
@@ -86,11 +86,11 @@ body {
      }
      .link-active {
          text-decoration: none;
-         font-family: Raleway,sans-serif;
+         
          font-style: normal;
          font-weight: 700;
          font-size: 26px;
-         line-height: 31px;
+         line-height: 1.19;
          color: var(--active);
      }
      .link-active:focus {
@@ -98,10 +98,10 @@ body {
      }
      .link-active-studio {
         text-decoration: none;
-        font-family: Raleway,sans-serif;
+       
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         color: var(--black);
      }
      
@@ -232,14 +232,14 @@ body {
         color: var(--black);
      }
      h2 {
-        width: 376px;
-        
+        /* width: 376px;
+         */
       
        
         font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
-        text-align: center;
+        line-height: 1.16;
+        /* text-align: center; */
         letter-spacing: 0.03em;
          color: var(--black);
      }
@@ -272,7 +272,10 @@ body {
         color: var(--black)
     }
     .link-title-marketing {
-       
+        width: 137px;
+        height: 19px;
+        left: 882px;
+        top: 1925px;
       
         
         font-weight: 500;
@@ -319,9 +322,9 @@ body {
 
    .siti {
        color: var(--white-2);
-       font-family: Roboto;
-      
-       font-weight: normal;
+     
+       font-family: Roboto,sans-serif;
+       font-weight: 400;
        font-size: 14px;
        line-height: 1.71;
 
